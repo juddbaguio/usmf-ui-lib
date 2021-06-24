@@ -31,9 +31,9 @@ const StyledButton = styled.button<ButtonProps>`
     }
 `
 
-export const Button: React.FC<ButtonProps> = ({ onClick = () => {}, label = 'Test Button', primary = false }) => {
+export const Button: React.FC<ButtonProps> = ({ onClick = () => {}, label = 'Test Button', primary = false, style={} }) => {
     return (
-        <StyledButton onClick={onClick} primary={primary}>
+        <StyledButton onClick={onClick} primary={primary} style={style}>
             {label}
         </StyledButton>
     )

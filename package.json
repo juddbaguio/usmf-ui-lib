@@ -1,6 +1,6 @@
 {
   "name": "usmf-ui-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "component library of US Mining Farms",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
