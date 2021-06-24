@@ -1,5 +1,5 @@
 {
-  "name": "usmf-ui-lib",
+  "name": "usmf-react-lib",
   "version": "1.0.0",
   "description": "component library of US Mining Farms",
   "main": "lib/index.js",
